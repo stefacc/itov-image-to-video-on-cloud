@@ -4,7 +4,7 @@ Turns images into short videos (~5 s clips) with **ComfyUI + Wan 2.2 I2V 14B** o
 in **your own** AWS account. Images never leave the account: no external services, no open ports.
 
 ```
-aws/itov/
+itov/
 ├── itov.ps1            control script (deploy, start, connect, stop, ...)
 ├── infra/itov.yaml     CloudFormation: GPU, encrypted disk and bucket, SSM-only access
 ├── tools/itov_test.py  end-to-end test with a synthetic image
